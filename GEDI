@@ -8,7 +8,7 @@ var dataset = ee.ImageCollection('LARSE/GEDI/GEDI02_A_002_MONTHLY')
 
 var gediVis = {
   min: 1,
-  max: 60,
+  max: 20,
   palette: 'darkred,red,orange,green,darkgreen',
 };
 Map.setCenter(76, 11, 10);
