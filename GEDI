@@ -11,5 +11,5 @@ var gediVis = {
   max: 20,
   palette: 'darkred,red,orange,green,darkgreen',
 };
-Map.setCenter(76, 11, 10);
+Map.setCenter(76.4676, 11.678, 12);
 Map.addLayer(dataset, gediVis, 'rh98');
